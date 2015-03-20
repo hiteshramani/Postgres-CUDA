@@ -1,0 +1,12 @@
+#include<stdio.h>
+const int N = 7;
+
+int main()
+{
+printf("Hello");
+ 
+ char *ad;
+ const int csize = N*sizeof(char);
+ cudaMalloc( (void**)&ad, csize );
+
+}
